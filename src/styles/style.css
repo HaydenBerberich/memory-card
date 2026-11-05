@@ -1,0 +1,36 @@
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 0 300px;
+}
+
+.card img {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(28, 112, 230);
+  color: white;
+  text-align: center;
+}
+
+.scores {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+button {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+}
+
+h3 {
+  margin: 15px;
+}
+
+h3::first-letter{
+  text-transform: uppercase;
+}
